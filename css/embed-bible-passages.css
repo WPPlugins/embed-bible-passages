@@ -1,0 +1,148 @@
+#datepicker_above {
+	float: right;
+	font-size: 0.7em;
+	line-height: 1.0em;
+	margin: 15px 0 5px 10px;
+}
+
+#datepicker {
+	float: right;
+	font-size: 0.7em;
+	line-height: 1.0em;
+	margin: 15px 0 5px 10px;
+}
+
+.scriptures-date {
+	font-weight: bold;
+}
+
+.ebp_audio_player {
+	width: 50%;
+}
+
+.ebp_loading_img {
+	margin: 10% auto;
+	height: 25%;
+	width: 25%;
+}
+
+/* The following (down to "Mobile") are derived from http://www.gnpcb.org/esv/assets/style/text.css */
+h3 {
+	text-align: left;
+	}
+span.verse-num {
+	font-size: 80%;
+	font-weight: bold;
+	padding-right: .15em;
+	padding-left: .25em;
+	vertical-align: text-top;
+	}
+span.woc { /* Words of Christ (for red-letter editions) */
+	 color: #900;
+	}
+span.chapter-num {
+	font-weight: bold;
+	padding-right: .5em;
+	}
+.esv h2 {
+	font-size: 1.8em;
+}
+div.esv-text p {
+	text-indent: 2em;
+	}
+div.esv-text p.same-paragraph {
+	text-indent: 0;
+	}
+div.block-indent p {
+	text-indent: 0;
+	padding-left: 2.5em;
+	margin-left: 0;
+	}
+span.indent {
+	padding-left: 2em;
+	}
+span.indent-2, span.psalm-doxology-line {
+	padding-left: 4em;
+	}
+span.declares-line {
+	padding-left: 6em;
+	}
+span.small-caps {
+	font-variant: small-caps;
+	}
+span.selah {
+	font-style: italic;
+	margin-left: 1em;
+	}
+p.extra-space {
+	margin-top: 2em;
+	}
+div.block-indent span.verse-num, div.block-indent span.woc  {
+	padding-left: 0;
+	}
+h4 {
+	font-weight: normal;
+	}
+h4.speaker {
+	padding-left: 10em;
+	font-variant: small-caps;
+	margin-bottom: -1em;
+	}
+h4.textual-note {
+	font-variant: small-caps;
+	}
+h4.psalm-acrostic-title {
+	font-variant: small-caps;
+	}
+h4.psalm-title {
+
+	}
+span.footnote {
+	font-size: 80%;
+	padding-right: .5em;
+	padding-left: 0em;
+	vertical-align: text-top;
+	}
+div.footnotes h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+div.footnotes p {
+	text-indent: 0;
+	}
+span.footnote-ref {
+	font-weight: bold;
+	}
+p.copyright {
+	text-indent: 0;
+	}
+object.audio {
+	margin: 0 0 0 10px;
+	padding: 0;
+	}
+	
+/* Mobile
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+	#datepicker_above {
+		float: none;
+		margin: 10px auto;
+	}
+	
+	#datepicker {
+		display: none;
+	}
+
+	.esv h2 {
+		margin-bottom: -17px;
+	}
+	
+	.ebp_audio_player {
+		margin: 0.3em 0 0.7em 0;
+		width: 95%;
+		float: none;
+	}
+	
+}
+
